@@ -80,3 +80,6 @@ alias vim='nvim'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# Some settings
+set -o ignoreeof  # Ignore Ctrl-D signal.
